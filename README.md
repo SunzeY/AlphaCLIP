@@ -10,9 +10,10 @@ pip install loralib
 ```
 
 ## how to use
-download model and place it under `checkpoints`.
+download model from [model-zoo](https://github.com/SunzeY/AlphaCLIP/blob/main/model-zoo.md) and place it under `checkpoints`.
 
 ```python
+import alpha_clip
 alpha_clip.load("ViT-B/16", alpha_vision_ckpt_pth="checkpoints/clip_b16_grit1m_fultune_8xe.pth", device="cpu"), 
 image_features = model.visual(image, alpha)
 ```
