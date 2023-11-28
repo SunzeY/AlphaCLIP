@@ -1,4 +1,8 @@
 # Model Zoo
+
+## CLIP
+These model trained with original CLIP text-encoder from orignal [CLIP codebase]((https://github.com/openai/CLIP)) from OpenAI. The text-encoder stays fixed during the whole training process.
+
 test metric is classification accuracy on Imagenet-S dataset. `()` is improved acc compared to original CLIP from openai.
 
 train on grit-1m
@@ -20,3 +24,5 @@ train on combined dataset(mimagenet_top+grit-1m)
 | CLIP-B/16 | 69.40(+2.92)    | 90.74(+1.84)    | 55.39(+4.97)   | [clip_b16_grit1m+mim_fultune_4xe](https://drive.google.com/file/d/11iDlSAYI_BAi1A_Qz6LTWYHNgPe-UY7I/view?usp=sharing) |
 | CLIP-L/14 | 77.80(+4.32)    | 94.46(+2.86)    | 58.83(+3.40)   | [clip_l14_grit1m+mim_fultune_6xe](https://drive.google.com/file/d/1JfzOTvjf0tqBtKWwpBJtjYxdHi-06dbk/view?usp=sharing) |
 
+## Open-CLIP
+We are planning to train based on [open_clip](https://github.com/mlfoundations/open_clip) with bigger ViT encoder. please **STAY ON TRACK**!
