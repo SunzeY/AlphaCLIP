@@ -12,7 +12,7 @@ train on grit-20m
 | model     | Acc1         | Acc5         | google link                                                  |
 | --------- | ------------ | ------------ | ------------------------------------------------------------ |
 | CLIP-B/16 | 68.89(+2.41) | 90.51(+1.61) | [clip_b16_grit20m_fultune_2xe](https://drive.google.com/file/d/1cj3cYwrzBivx0h0NzSjlCg9HAd5aTkDW/view?usp=sharing) |
-| CLIP-L/14 | 77.58(+4.10) | 94.47(+2.87) | [clip_l14_grit20m_fultune_2xe](https://drive.google.com/file/d/1sMhxFpJkIhTw76TN3FyrNA7c8tNWnvGS/view?usp=sharing) |
+| CLIP-L/14 | 77.41(+3.93) | 94.45(+2.82) | [clip_l14_grit20m_fultune_2xe](https://drive.google.com/file/d/1sMhxFpJkIhTw76TN3FyrNA7c8tNWnvGS/view?usp=sharing) |
 
 train on combined dataset(mimagenet_top+grit-1m)
 | model     | Imagenet-S Acc1 | Imagenet-S Acc5 | COCO crop Acc1 | google link                                                  |
