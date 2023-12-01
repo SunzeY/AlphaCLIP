@@ -1,5 +1,5 @@
 # Model Zoo
-Models are also available at [![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/models/detail/SunzeY/AlphaCLIP)
+Models are also available at [![Open in OpenXLab](https://cdn-static.openxlab.org.cn/header/openxlab_models.svg)](https://openxlab.org.cn/models/detail/SunzeY/AlphaCLIP)
 
 ## CLIP
 These model trained with original CLIP text-encoder from orignal [CLIP codebase]((https://github.com/openai/CLIP)) from OpenAI. The text-encoder stays fixed during the whole training process.
