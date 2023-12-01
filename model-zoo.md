@@ -1,5 +1,5 @@
 # Model Zoo
-models are also available at [![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/models/detail/SunzeY/AlphaCLIP)
+Models are also available at [![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/models/detail/SunzeY/AlphaCLIP)
 
 ## CLIP
 These model trained with original CLIP text-encoder from orignal [CLIP codebase]((https://github.com/openai/CLIP)) from OpenAI. The text-encoder stays fixed during the whole training process.
@@ -26,4 +26,4 @@ train on combined dataset(mimagenet_top+grit-1m)
 | CLIP-L/14 | 77.80(+4.32)    | 94.46(+2.86)    | 58.83(+3.40)   | [clip_l14_grit1m+mim_fultune_6xe](https://drive.google.com/file/d/1JfzOTvjf0tqBtKWwpBJtjYxdHi-06dbk/view?usp=sharing) |
 
 ## Open-CLIP
-We are planning to train based on [open_clip](https://github.com/mlfoundations/open_clip) with deeper ViT encoder. please **STAY ON TRACK**!
+We are planning to train based on [open_clip](https://github.com/mlfoundations/open_clip) with deeper ViT encoder. please **STAY TUNED**!
