@@ -1,4 +1,4 @@
-# <img src="img/alpha_icon.png" style="vertical-align: -10px;" :height="40px" width="40px"> Alpha-CLIP
+# <img src="img/alpha_icon.png" style="vertical-align: -5px;" :height="40px" width="40px"> Alpha-CLIP
 This repository is the official implementation of
 **[Alpha-CLIP: A CLIP model focusing on wherever you want](https://arxiv.org/abs/2307.04725)**
 </br>
