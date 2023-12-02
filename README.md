@@ -68,6 +68,11 @@ mask_transform = transforms.Compose([
 alpha = mask_transform(binary_mask * 255)
 ```
 
+Usage examples are available
+
+* visualization of attention map: [notebook](https://github.com/SunzeY/AlphaCLIP/blob/main/notebooks/attn_visual.ipynb)
+* Alpha-CLIP used in BLIP-Diffusion: [notebook](https://github.com/SunzeY/AlphaCLIP/blob/main/notebooks/blip_diffusion.ipynb)
+
 ## ❤️ Acknowledgments
 - [CLIP](https://github.com/openai/CLIP): The codebase we built upon. Thanks for their wonderful work.
 - [LAVIS](https://github.com/salesforce/LAVIS): The amazing open-sourced multimodality learning codebase, where we test Alpha-CLIP in [BLIP-2](https://github.com/salesforce/LAVIS/tree/main/projects/blip2) and [BLIP-Diffusion](https://github.com/salesforce/LAVIS/tree/main/projects/blip-diffusion).
