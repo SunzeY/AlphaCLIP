@@ -2,8 +2,8 @@
 This repository is the official implementation of
 **[Alpha-CLIP: A CLIP model focusing on wherever you want](https://arxiv.org/abs/2307.04725)**
 </br>
-[Zeyi Sun*](https://github.com/SunzeY),
-[Ye Fang*](https://github.com/Aleafy),
+[Zeyi Sun](https://github.com/SunzeY)\*,
+[Ye Fang](https://github.com/Aleafy)\*,
 [Tong Wu](https://wutong16.github.io/),
 [Pan Zhang](https://panzhang0212.github.io/),
 [Yuhang Zang](https://yuhangzang.github.io/),
