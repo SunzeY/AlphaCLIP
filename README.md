@@ -1,5 +1,5 @@
 # <img src="img/alpha_icon.png" style="vertical-align: -10px;" :height="40px" width="40px"> Alpha-CLIP
-> This repository is the official implementation of
+This repository is the official implementation of
 **[Alpha-CLIP: A CLIP model focusing on wherever you want](https://arxiv.org/abs/2307.04725)**
 </br>
 [Zeyi Sun*](https://github.com/SunzeY),
@@ -11,7 +11,7 @@
 [Yuanjun Xiong](http://yjxiong.me/),
 [Dahua Lin](http://dahua.site/),
 [Jiaqi Wang](https://myownskyw7.github.io/)
-> <p style="font-size: 0.8em; margin-top: -1em">*Equal Contribution</p>
+<p style="font-size: 0.8em; margin-top: -1em">*Equal Contribution</p>
 
 <!-- [Arxiv Report](https://arxiv.org/abs/2307.04725) | [Project Page](https://animatediff.github.io/) -->
 [![Arxiv Report](https://img.shields.io/badge/arXiv-2307.04725-b31b1b.svg)](https://arxiv.org/abs/2307.04725)
