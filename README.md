@@ -1,17 +1,17 @@
 # <img src="img/alpha_icon.png" style="vertical-align: -10px;" :height="40px" width="40px"> Alpha-CLIP
-This repository is the official implementation of
+> This repository is the official implementation of
 **[Alpha-CLIP: A CLIP model focusing on wherever you want](https://arxiv.org/abs/2307.04725)**
 </br>
-Zeyi Sun*,
-Ye Fang*,
-Tong Wu,
-Pan Zhang,
-Yuhang Zang,
-Shu Kong,
-Yuanjun Xiong,
-Dahua Lin,
-Jiaqi Wang
-<p style="font-size: 0.8em; margin-top: -1em">*Equal Contribution</p>
+[Zeyi Sun*](https://github.com/SunzeY),
+[Ye Fang*](https://github.com/Aleafy),
+[Tong Wu](https://wutong16.github.io/),
+[Pan Zhang](https://panzhang0212.github.io/),
+[Yuhang Zang](https://yuhangzang.github.io/),
+[Shu Kong](https://aimerykong.github.io/),
+[Yuanjun Xiong](http://yjxiong.me/),
+[Dahua Lin](http://dahua.site/),
+[Jiaqi Wang](https://myownskyw7.github.io/)
+> <p style="font-size: 0.8em; margin-top: -1em">*Equal Contribution</p>
 
 <!-- [Arxiv Report](https://arxiv.org/abs/2307.04725) | [Project Page](https://animatediff.github.io/) -->
 [![Arxiv Report](https://img.shields.io/badge/arXiv-2307.04725-b31b1b.svg)](https://arxiv.org/abs/2307.04725)
@@ -26,7 +26,7 @@ Jiaqi Wang
 
 ## 💡 Highlights
 - 🔥 **3.93%** improved zero-shot ImageNet classification accuracy when providing foreground alpha-map.
-- 🔥 **Plug-in and play** with region focus in BLIP2, LLaVA, Point-E, BLIP-Diffusion, Lambda-SD that use CLIP vision encoder.
+- 🔥 **Plug-in and play** with region focus in **any work** that use CLIP vision encoder.
 - 🔥 **A strong visual encoder** as vasatile tool when foreground mask is available.
 
 ## 👨‍💻 Todo
