@@ -478,8 +478,9 @@ class CLIP(nn.Module):
             return self.visual.module.conv1.weight.dtype
         return self.visual.conv1.weight.dtype
 
-    def encode_image(self, image):
-        return self.visual(image.type(self.dtype))
+    def encode_image(self, image, alpha):
+        assert alpha is not None
+        return self.visual(image.type(self.dtype), alpha.type(self.dtype))
 
     def encode_text(self, text):
         x = self.token_embedding(text).type(self.dtype)  # [batch_size, n_ctx, d_model]
@@ -496,8 +497,8 @@ class CLIP(nn.Module):
 
         return x
 
-    def forward(self, image, text):
-        image_features = self.encode_image(image)
+    def forward(self, image, text, alpha):
+        image_features = self.encode_image(image, alpha)
         text_features = self.encode_text(text)
 
         # normalized features

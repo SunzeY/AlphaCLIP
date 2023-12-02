@@ -2,14 +2,16 @@
 This repository is the official implementation of
 **[Alpha-CLIP: A CLIP model focusing on wherever you want](https://arxiv.org/abs/2307.04725)**
 </br>
-Yuwei Guo,
-Ceyuan Yang*,
-Anyi Rao,
-Yaohui Wang,
-Yu Qiao,
+Zeyi Sun*,
+Ye Fang*,
+Tong Wu,
+Pan Zhang,
+Yuhang Zang,
+Shu Kong,
+Yuanjun Xiong,
 Dahua Lin,
-Bo Dais
-<p style="font-size: 0.8em; margin-top: -1em">*Corresponding Author</p>
+Jiaqi Wang
+<p style="font-size: 0.8em; margin-top: -1em">*Equal Contribution</p>
 
 <!-- [Arxiv Report](https://arxiv.org/abs/2307.04725) | [Project Page](https://animatediff.github.io/) -->
 [![Arxiv Report](https://img.shields.io/badge/arXiv-2307.04725-b31b1b.svg)](https://arxiv.org/abs/2307.04725)
@@ -18,6 +20,20 @@ Bo Dais
 [![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/apps/detail/Masbfca/AnimateDiff) with SD
 [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-yellow)](https://huggingface.co/spaces/guoyww/AnimateDiff) with LLM
 [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-yellow)](https://huggingface.co/spaces/guoyww/AnimateDiff) with SD
+
+## 📜 News
+[2023/11/20] The [paper]([ShareGPT4V.pdf](https://arxiv.org/pdf/2311.12793.pdf)) and [project page](https://ShareGPT4V.github.io/) are released!
+
+## 💡 Highlights
+- 🔥 **3.93%** improved zero-shot ImageNet classification accuracy when providing foreground alpha-map.
+- 🔥 **Plug-in and play** with region focus in BLIP2, LLaVA, Point-E, BLIP-Diffusion, Lambda-SD that use CLIP vision encoder.
+- 🔥 **A strong visual encoder** as vasatile tool when foreground mask is available.
+
+## 👨‍💻 Todo
+- [ ] Training and evaluation code for Alpha-CLIP
+- [x] Web demo and local demo of Alpha-CLIP
+- [x] Usage example notebook of Alpha-CLIP
+- [x] Checkpoints of Alpha-CLIP
 
 ## 🛠️Usage
 
