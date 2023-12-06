@@ -1,5 +1,6 @@
 # <img src="img/alpha_icon.png" style="vertical-align: -10px;" :height="40px" width="40px"> Alpha-CLIP
-This repository is the official implementation of
+This repository is the official implementation of AlphaCLIP
+
 **[Alpha-CLIP: A CLIP Model Focusing on Wherever You Want](https://arxiv.org/abs/2307.04725)**
 </br>
 [Zeyi Sun](https://github.com/SunzeY)\*,
@@ -12,15 +13,21 @@ This repository is the official implementation of
 [Dahua Lin](http://dahua.site/),
 [Jiaqi Wang](https://myownskyw7.github.io/)
 <p style="font-size: 0.8em; margin-top: -1em">*Equal Contribution</p>
+<p align="center">
+<a href="https://arxiv.org/abs/2311.12793"><img src="https://img.shields.io/badge/arXiv-Paper-<color>"></a>
+<a href="https://aleafy.github.io/alpha-clip"><img src="https://img.shields.io/badge/Project-Website-red"></a>
+</p>
 
-<center>
-[![Arxiv Report](https://img.shields.io/badge/arXiv-2307.04725-b31b1b.svg)](https://arxiv.org/abs/2307.04725)
-[![Project Page](https://img.shields.io/badge/Project-Website-green)](https://animatediff.github.io/)
-</center>
-Demo: Alpha-CLIP+StableDiffusion [![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/apps/detail/Masbfca/AnimateDiff) [![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/apps/detail/Masbfca/AnimateDiff)
+Demo Alpha-CLIP+StableDiffusion: 
+[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-yellow)](https://huggingface.co/spaces/Zery/Alpha_CLIP_ImgVar)
+[![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/apps/detail/SunzeY/Alpha-CLIP_Image_Var1) 
+
+
+Demo Alpha-CLIP+LLaVA: coming soon
+
 
 ## 📜 News
-[2023/11/20] The [paper]([ShareGPT4V.pdf](https://arxiv.org/pdf/2311.12793.pdf)) and [project page](https://ShareGPT4V.github.io/) are released!
+[2023/12/7] The [paper](https://arxiv.org/abs/2311.12793) and [project page](https://aleafy.github.io/alpha-clip) are released!
 
 ## 💡 Highlights
 - 🔥 **3.93%** improved zero-shot ImageNet classification accuracy when providing foreground alpha-map.
@@ -29,7 +36,7 @@ Demo: Alpha-CLIP+StableDiffusion [![Open in OpenXLab](https://cdn-static.openxla
 
 ## 👨‍💻 Todo
 - [ ] Training and evaluation code for Alpha-CLIP
-- [ ] Web demo and local demo of Alpha-CLIP with LLaVA
+- [x] Web demo and local demo of Alpha-CLIP with LLaVA
 - [x] Web demo and local demo of Alpha-CLIP with Stable Diffusion
 - [x] Usage example notebook of Alpha-CLIP
 - [x] Checkpoints of Alpha-CLIP
