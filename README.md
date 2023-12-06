@@ -1,6 +1,6 @@
 # <img src="img/alpha_icon.png" style="vertical-align: -10px;" :height="40px" width="40px"> Alpha-CLIP
 This repository is the official implementation of
-**[Alpha-CLIP: A CLIP model focusing on wherever you want](https://arxiv.org/abs/2307.04725)**
+**[Alpha-CLIP: A CLIP Model Focusing on Wherever You Want](https://arxiv.org/abs/2307.04725)**
 </br>
 [Zeyi Sun](https://github.com/SunzeY)\*,
 [Ye Fang](https://github.com/Aleafy)\*,
@@ -13,13 +13,11 @@ This repository is the official implementation of
 [Jiaqi Wang](https://myownskyw7.github.io/)
 <p style="font-size: 0.8em; margin-top: -1em">*Equal Contribution</p>
 
-<!-- [Arxiv Report](https://arxiv.org/abs/2307.04725) | [Project Page](https://animatediff.github.io/) -->
+<center>
 [![Arxiv Report](https://img.shields.io/badge/arXiv-2307.04725-b31b1b.svg)](https://arxiv.org/abs/2307.04725)
 [![Project Page](https://img.shields.io/badge/Project-Website-green)](https://animatediff.github.io/)
-[![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/apps/detail/Masbfca/AnimateDiff) with LLM
-[![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/apps/detail/Masbfca/AnimateDiff) with SD
-[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-yellow)](https://huggingface.co/spaces/guoyww/AnimateDiff) with LLM
-[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-yellow)](https://huggingface.co/spaces/guoyww/AnimateDiff) with SD
+</center>
+Demo: Alpha-CLIP+StableDiffusion [![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/apps/detail/Masbfca/AnimateDiff) [![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/apps/detail/Masbfca/AnimateDiff)
 
 ## 📜 News
 [2023/11/20] The [paper]([ShareGPT4V.pdf](https://arxiv.org/pdf/2311.12793.pdf)) and [project page](https://ShareGPT4V.github.io/) are released!
@@ -31,7 +29,8 @@ This repository is the official implementation of
 
 ## 👨‍💻 Todo
 - [ ] Training and evaluation code for Alpha-CLIP
-- [x] Web demo and local demo of Alpha-CLIP
+- [ ] Web demo and local demo of Alpha-CLIP with LLaVA
+- [x] Web demo and local demo of Alpha-CLIP with Stable Diffusion
 - [x] Usage example notebook of Alpha-CLIP
 - [x] Checkpoints of Alpha-CLIP
 
@@ -51,7 +50,7 @@ pip install loralib
 ```
 
 ### how to use
-download model from [model-zoo](https://github.com/SunzeY/AlphaCLIP/blob/main/model-zoo.md) and place it under `checkpoints`.
+Download model from [model-zoo](https://github.com/SunzeY/AlphaCLIP/blob/main/model-zoo.md) and place it under `checkpoints`.
 
 ```python
 import alpha_clip
@@ -70,7 +69,7 @@ alpha = mask_transform(binary_mask * 255)
 
 Usage examples are available
 
-* visualization of attention map: [notebook](https://github.com/SunzeY/AlphaCLIP/blob/main/notebooks/attn_visual.ipynb)
+* Visualization of attention map: [notebook](https://github.com/SunzeY/AlphaCLIP/blob/main/notebooks/attn_visual.ipynb)
 * Alpha-CLIP used in BLIP-Diffusion: [notebook](https://github.com/SunzeY/AlphaCLIP/blob/main/notebooks/blip_diffusion.ipynb)
 * Alpha-CLIP used in SD_ImageVar: [demo](https://github.com/SunzeY/AlphaCLIP/tree/main/demo/with_diffusion)
 
