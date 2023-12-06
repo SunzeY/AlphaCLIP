@@ -72,7 +72,7 @@ Usage examples are available
 
 * visualization of attention map: [notebook](https://github.com/SunzeY/AlphaCLIP/blob/main/notebooks/attn_visual.ipynb)
 * Alpha-CLIP used in BLIP-Diffusion: [notebook](https://github.com/SunzeY/AlphaCLIP/blob/main/notebooks/blip_diffusion.ipynb)
-* Alpha-CLIP used in [lambda-diffusers](https://github.com/LambdaLabsML/lambda-diffusers): [demo](https://github.com/SunzeY/AlphaCLIP/tree/main/demo/with_diffusion)
+* Alpha-CLIP used in SD_ImageVar: [demo](https://github.com/SunzeY/AlphaCLIP/tree/main/demo/with_diffusion)
 
 ## ❤️ Acknowledgments
 - [CLIP](https://github.com/openai/CLIP): The codebase we built upon. Thanks for their wonderful work.
