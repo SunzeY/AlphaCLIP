@@ -1,7 +1,7 @@
 # <img src="img/alpha_icon.png" style="vertical-align: -10px;" :height="40px" width="40px"> Alpha-CLIP
 This repository is the official implementation of AlphaCLIP
 
-**[Alpha-CLIP: A CLIP Model Focusing on Wherever You Want](https://arxiv.org/abs/2307.04725)**
+> **[Alpha-CLIP: A CLIP Model Focusing on Wherever You Want](https://arxiv.org/abs/2307.04725)**
 </br>
 [Zeyi Sun](https://github.com/SunzeY)\*,
 [Ye Fang](https://github.com/Aleafy)\*,
@@ -12,7 +12,7 @@ This repository is the official implementation of AlphaCLIP
 [Yuanjun Xiong](http://yjxiong.me/),
 [Dahua Lin](http://dahua.site/),
 [Jiaqi Wang](https://myownskyw7.github.io/)
-<p style="font-size: 0.8em; margin-top: -1em">*Equal Contribution</p>
+> <p style="font-size: 0.8em; margin-top: -1em">*Equal Contribution</p>
 <p align="center">
 <a href="https://arxiv.org/abs/2311.12793"><img src="https://img.shields.io/badge/arXiv-Paper-<color>"></a>
 <a href="https://aleafy.github.io/alpha-clip"><img src="https://img.shields.io/badge/Project-Website-red"></a>
@@ -36,7 +36,7 @@ Demo Alpha-CLIP+LLaVA: coming soon
 
 ## 👨‍💻 Todo
 - [ ] Training and evaluation code for Alpha-CLIP
-- [x] Web demo and local demo of Alpha-CLIP with LLaVA
+- [ ] Web demo and local demo of Alpha-CLIP with LLaVA
 - [x] Web demo and local demo of Alpha-CLIP with Stable Diffusion
 - [x] Usage example notebook of Alpha-CLIP
 - [x] Checkpoints of Alpha-CLIP
