@@ -1,0 +1,5 @@
+diffusers
+transformers
+wget
+accelerate
+gradio==3.37.0
