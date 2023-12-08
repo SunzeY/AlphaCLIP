@@ -57,6 +57,7 @@ Demo `Alpha-CLIP` with `LLaVA`: coming soon
 <p align="center"> <a>  
 <img src="./img/blipdif.gif"  width="900" />
 </a> </p>
+
 ## 👨‍💻 Todo
 - [ ] Training and evaluation code for Alpha-CLIP
 - [ ] Web demo and local demo of Alpha-CLIP with LLaVA
