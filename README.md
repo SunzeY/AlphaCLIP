@@ -41,7 +41,7 @@ Demo `Alpha-CLIP` with `LLaVA`: coming soon
 - [x] Usage example notebook of Alpha-CLIP
 - [x] Checkpoints of Alpha-CLIP
 
-## 🛠️Usage
+## 🛠️ Quick Start
 
 ### Installation
 our model is based on [CLIP](https://github.com/openai/CLIP), please first prepare environment for CLIP, then directly install Alpha-CLIP.
