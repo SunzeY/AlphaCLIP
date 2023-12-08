@@ -1,7 +1,7 @@
 # <img src="img/alpha_icon.png" style="vertical-align: -10px;" :height="40px" width="40px"> Alpha-CLIP
 This repository is the official implementation of AlphaCLIP
 
-**[Alpha-CLIP: A CLIP Model Focusing on Wherever You Want](https://arxiv.org/abs/2307.04725)**
+**[Alpha-CLIP: A CLIP Model Focusing on Wherever You Want](https://arxiv.org/abs/2312.03818)**
 </br>
 [Zeyi Sun](https://github.com/SunzeY)\*,
 [Ye Fang](https://github.com/Aleafy)\*,
