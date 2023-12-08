@@ -83,7 +83,7 @@ Usage examples are available
 
 ##   ⭐ Demos
 <p align="center"> <a>  
-<img src="./img/demo2.gif"  width="900" />
+<img src="./img/demo1.gif"  width="900" />
 </a> </p>
 
 
