@@ -82,9 +82,7 @@ Usage examples are available
 * Alpha-CLIP used in SD_ImageVar: [demo](https://github.com/SunzeY/AlphaCLIP/tree/main/demo/with_diffusion)
 
 ##   🎥 Demo
-<div class="publication-video">
-    <iframe src="https://www.youtube.com/embed/UAUJNFJSbiI?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</div>
+<iframe src="https://www.youtube.com/embed/UAUJNFJSbiI?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## ❤️ Acknowledgments
 - [CLIP](https://github.com/openai/CLIP): The codebase we built upon. Thanks for their wonderful work.
