@@ -14,7 +14,7 @@ This repository is the official implementation of AlphaCLIP
 [Jiaqi Wang](https://myownskyw7.github.io/)
 <p style="font-size: 0.6em; margin-top: -1em">*Equal Contribution</p>
 <p align="center">
-<a href="https://arxiv.org/abs/2311.12793"><img src="https://img.shields.io/badge/arXiv-Paper-<color>"></a>
+<a href="https://arxiv.org/abs/2312.03818"><img src="https://img.shields.io/badge/arXiv-Paper-<color>"></a>
 <a href="https://aleafy.github.io/alpha-clip"><img src="https://img.shields.io/badge/Project-Website-red"></a>
 </p>
 
@@ -27,7 +27,7 @@ Demo `Alpha-CLIP` with `LLaVA`: coming soon
 
 
 ## 📜 News
-[2023/12/7] The [paper](https://arxiv.org/abs/2311.12793) and [project page](https://aleafy.github.io/alpha-clip) are released!
+[2023/12/7] The [paper](https://arxiv.org/abs/2312.03818) and [project page](https://aleafy.github.io/alpha-clip) are released!
 
 ## 💡 Highlights
 - 🔥 **3.93%** improved zero-shot ImageNet classification accuracy when providing foreground alpha-map.
@@ -89,7 +89,14 @@ Usage examples are available
 ## ✒️ Citation
 If you find our work helpful for your research, please consider giving a star ⭐ and citation 📝
 ```bibtex
-
+@misc{sun2023alphaclip,
+      title={Alpha-CLIP: A CLIP Model Focusing on Wherever You Want}, 
+      author={Zeyi Sun and Ye Fang and Tong Wu and Pan Zhang and Yuhang Zang and Shu Kong and Yuanjun Xiong and Dahua Lin and Jiaqi Wang},
+      year={2023},
+      eprint={2312.03818},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
 ```
 
 ## License
