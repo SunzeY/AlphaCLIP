@@ -41,7 +41,7 @@ Demo `Alpha-CLIP` with `LLaVA`: coming soon
 - [x] Usage example notebook of Alpha-CLIP
 - [x] Checkpoints of Alpha-CLIP
 
-## 🛠️ Quick Start
+## 🛠️ Usage
 
 ### Installation
 our model is based on [CLIP](https://github.com/openai/CLIP), please first prepare environment for CLIP, then directly install Alpha-CLIP.
@@ -65,6 +65,7 @@ alpha_clip.load("ViT-B/16", alpha_vision_ckpt_pth="checkpoints/clip_b16_grit1m_f
 image_features = model.visual(image, alpha)
 ```
 `alpha` need to be normalized via transforms when using `binary_mask` in (0, 1)
+
 ```python
 mask_transform = transforms.Compose([
     transforms.ToTensor(), 
