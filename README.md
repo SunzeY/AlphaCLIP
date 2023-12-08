@@ -81,8 +81,11 @@ Usage examples are available
 * Alpha-CLIP used in BLIP-Diffusion: [notebook](https://github.com/SunzeY/AlphaCLIP/blob/main/notebooks/blip_diffusion.ipynb)
 * Alpha-CLIP used in SD_ImageVar: [demo](https://github.com/SunzeY/AlphaCLIP/tree/main/demo/with_diffusion)
 
-##   🎥 Video
-[![Alpha-CLIP: A CLIP Model Focusing on Wherever You Want](https://res.cloudinary.com/marcomontalbano/image/upload/v1702016608/video_to_markdown/images/youtube--UAUJNFJSbiI-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=UAUJNFJSbiI&embeds_referring_euri=https%3A%2F%2Faleafy.github.io%2F&source_ve_path=OTY3MTQ&feature=emb_imp_woyt "Alpha-CLIP: A CLIP Model Focusing on Wherever You Want")
+##   ⭐ Demos
+<p align="center"> <a>  
+<img src="./img/demo.gif"  width="900" />
+</a> </p>
+
 
 ## ❤️ Acknowledgments
 - [CLIP](https://github.com/openai/CLIP): The codebase we built upon. Thanks for their wonderful work.
