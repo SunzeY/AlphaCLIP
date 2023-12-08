@@ -81,29 +81,11 @@ Usage examples are available
 * Alpha-CLIP used in BLIP-Diffusion: [notebook](https://github.com/SunzeY/AlphaCLIP/blob/main/notebooks/blip_diffusion.ipynb)
 * Alpha-CLIP used in SD_ImageVar: [demo](https://github.com/SunzeY/AlphaCLIP/tree/main/demo/with_diffusion)
 
-##  ⭐ Demos
-**🔥Alpha-CLIP+LLM: Caption Anywhere**
-
-<p align="center"> <a>  
-<img src="./img/cap.gif"  width="900" />
-</a> </p>
-
-**🔥Alpha-CLIP+LLM: Question Anywhere**
-
-<p align="center"> <a>  
-<img src="./img/qa.gif"  width="900" />
-</a> </p>
-
-**🔥Alpha-CLIP+3D Diffusion: Generate Anywhere**
-<p align="center"> <a>  
-<img src="./img/pointe.gif"  width="900" />
-</a> </p>
-
-**🔥Alpha-CLIP+2D Diffusion: Generate Anywhere**
-
-<p align="center"> <a>  
-<img src="./img/blipdif.gif"  width="900" />
-</a> </p>
+##   🎥 Demo
+<div class="publication-video">
+          <iframe src="https://www.youtube.com/embed/UAUJNFJSbiI?rel=0&amp;showinfo=0"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
 
 ## ❤️ Acknowledgments
 - [CLIP](https://github.com/openai/CLIP): The codebase we built upon. Thanks for their wonderful work.
