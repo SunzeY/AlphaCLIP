@@ -34,30 +34,6 @@ Demo `Alpha-CLIP` with `LLaVA`: coming soon
 - 🔥 **Plug-in and play** with region focus in **any work** that use CLIP vision encoder.
 - 🔥 **A strong visual encoder** as vasatile tool when foreground mask is available.
 
-##  ⭐Demos
-**🔥Alpha-CLIP+LLM: Caption Anywhere**
-
-<p align="center"> <a>  
-<img src="./img/cap.gif"  width="900" />
-</a> </p>
-
-**🔥Alpha-CLIP+LLM: Question Anywhere**
-
-<p align="center"> <a>  
-<img src="./img/qa.gif"  width="900" />
-</a> </p>
-
-**🔥Alpha-CLIP+3D Diffusion: Generate Anywhere**
-<p align="center"> <a>  
-<img src="./img/pointe.gif"  width="900" />
-</a> </p>
-
-**🔥Alpha-CLIP+2D Diffusion: Generate Anywhere**
-
-<p align="center"> <a>  
-<img src="./img/blipdif.gif"  width="900" />
-</a> </p>
-
 ## 👨‍💻 Todo
 - [ ] Training and evaluation code for Alpha-CLIP
 - [ ] Web demo and local demo of Alpha-CLIP with LLaVA
@@ -103,6 +79,30 @@ Usage examples are available
 * Visualization of attention map: [notebook](https://github.com/SunzeY/AlphaCLIP/blob/main/notebooks/attn_visual.ipynb)
 * Alpha-CLIP used in BLIP-Diffusion: [notebook](https://github.com/SunzeY/AlphaCLIP/blob/main/notebooks/blip_diffusion.ipynb)
 * Alpha-CLIP used in SD_ImageVar: [demo](https://github.com/SunzeY/AlphaCLIP/tree/main/demo/with_diffusion)
+
+##  ⭐ Demos
+**🔥Alpha-CLIP+LLM: Caption Anywhere**
+
+<p align="center"> <a>  
+<img src="./img/cap.gif"  width="900" />
+</a> </p>
+
+**🔥Alpha-CLIP+LLM: Question Anywhere**
+
+<p align="center"> <a>  
+<img src="./img/qa.gif"  width="900" />
+</a> </p>
+
+**🔥Alpha-CLIP+3D Diffusion: Generate Anywhere**
+<p align="center"> <a>  
+<img src="./img/pointe.gif"  width="900" />
+</a> </p>
+
+**🔥Alpha-CLIP+2D Diffusion: Generate Anywhere**
+
+<p align="center"> <a>  
+<img src="./img/blipdif.gif"  width="900" />
+</a> </p>
 
 ## ❤️ Acknowledgments
 - [CLIP](https://github.com/openai/CLIP): The codebase we built upon. Thanks for their wonderful work.
