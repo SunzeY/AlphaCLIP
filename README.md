@@ -32,7 +32,7 @@ Demo `Alpha-CLIP` with `LLaVA`: coming soon
 ## 💡 Highlights
 - 🔥 **3.93%** improved zero-shot ImageNet classification accuracy when providing foreground alpha-map.
 - 🔥 **Plug-in and play** with region focus in **any work** that use CLIP vision encoder.
-- 🔥 **A strong visual encoder** as vasatile tool when foreground mask is available.
+- 🔥 **A strong visual encoder** as versatile tool when foreground mask is available.
 
 ## 👨‍💻 Todo
 - [ ] Training and evaluation code for Alpha-CLIP
