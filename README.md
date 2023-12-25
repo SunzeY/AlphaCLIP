@@ -125,6 +125,8 @@ similarity = (100.0 * image_features @ text_features.T).softmax(dim=-1)
 print("Label probs:", similarity.cpu().numpy()) # prints: [[9.388e-05 9.995e-01 2.415e-04]]
 ```
 
+Note: Using `.half()` for tensor or `.float()` for model to main type consistency.
+
 
 
 More usage examples are available：
