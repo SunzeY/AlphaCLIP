@@ -32,7 +32,7 @@ Demo `Alpha-CLIP` with `LLaVA`: coming soon
 ## 💡 Highlights
 - 🔥 **3.93%** improved zero-shot ImageNet classification accuracy when providing foreground alpha-map.
 - 🔥 **Plug-in and play** with region focus in **any work** that use CLIP vision encoder.
-- 🔥 **A strong visual encoder** as vasatile tool when foreground mask is available.
+- 🔥 **A strong visual encoder** as versatile tool when foreground mask is available.
 
 ## 👨‍💻 Todo
 - [ ] Training and evaluation code for Alpha-CLIP
@@ -125,7 +125,7 @@ similarity = (100.0 * image_features @ text_features.T).softmax(dim=-1)
 print("Label probs:", similarity.cpu().numpy()) # prints: [[9.388e-05 9.995e-01 2.415e-04]]
 ```
 
-Note: Using `.half()` for tensor or `.float()` for model to main type consistency.
+Note: Using `.half()` for tensor or `.float()` for model to maintain type consistency.
 
 
 
