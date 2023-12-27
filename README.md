@@ -29,7 +29,7 @@ Demo `Alpha-CLIP` with `LLaVA`:
 
 
 ## 📜 News
-[2023/12/27] Web demo and local demo of Alpha-CLIP with LLaVA released! Try our [demo](https://openxlab.org.cn/apps/detail/SunzeY/Alpha-CLIP_with_LLM)
+[2023/12/27] Web [demo](https://huggingface.co/spaces/Zery/Alpha-CLIP_LLaVA-1.5) and local [demo](https://github.com/SunzeY/AlphaCLIP/tree/main/demo/with_llm) of Alpha-CLIP with LLaVA are released!
 
 
 [2023/12/7] The [paper](https://arxiv.org/abs/2312.03818) and [project page](https://aleafy.github.io/alpha-clip) are released!
