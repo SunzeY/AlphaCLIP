@@ -23,10 +23,13 @@ Demo `Alpha-CLIP` with `Stable Diffusion`:
 [![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/apps/detail/SunzeY/Alpha-CLIP_Image_Var1) 
 
 
-Demo `Alpha-CLIP` with `LLaVA`: coming soon
+Demo `Alpha-CLIP` with `LLaVA`:
+[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-yellow)](https://huggingface.co/spaces/Zery/Alpha-CLIP_LLaVA-1.5)
+[![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/apps/detail/SunzeY/Alpha-CLIP_with_LLM) 
 
 
 ## 📜 News
+[2023/12/27] Web demo and local demo of Alpha-CLIP with LLaVA released! Try our [demo](https://openxlab.org.cn/apps/detail/SunzeY/Alpha-CLIP_with_LLM)
 [2023/12/7] The [paper](https://arxiv.org/abs/2312.03818) and [project page](https://aleafy.github.io/alpha-clip) are released!
 
 ## 💡 Highlights
@@ -36,7 +39,7 @@ Demo `Alpha-CLIP` with `LLaVA`: coming soon
 
 ## 👨‍💻 Todo
 - [ ] Training and evaluation code for Alpha-CLIP
-- [ ] Web demo and local demo of Alpha-CLIP with LLaVA
+- [x] Web demo and local demo of Alpha-CLIP with LLaVA
 - [x] Web demo and local demo of Alpha-CLIP with Stable Diffusion
 - [x] Usage example notebook of Alpha-CLIP
 - [x] Checkpoints of Alpha-CLIP
@@ -134,6 +137,7 @@ More usage examples are available：
 * Visualization of attention map: [notebook](https://github.com/SunzeY/AlphaCLIP/blob/main/notebooks/attn_visual.ipynb)
 * Alpha-CLIP used in BLIP-Diffusion: [notebook](https://github.com/SunzeY/AlphaCLIP/blob/main/notebooks/blip_diffusion.ipynb)
 * Alpha-CLIP used in SD_ImageVar: [demo](https://github.com/SunzeY/AlphaCLIP/tree/main/demo/with_diffusion)
+* Alpha-CLIP used in LLaVA-1.5: [demo](https://github.com/SunzeY/AlphaCLIP/tree/main/demo/with_llm)
 
 ##   ⭐ Demos
 <p align="center"> <a>  

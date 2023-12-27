@@ -1,0 +1,3 @@
+llava @ git+https://github.com/haotian-liu/LLaVA@main
+gradio==3.35.2
+wget
