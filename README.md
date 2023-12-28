@@ -139,7 +139,7 @@ More usage examples are available：
 * Visualization of attention map: [notebook](https://github.com/SunzeY/AlphaCLIP/blob/main/notebooks/attn_visual.ipynb)
 * Alpha-CLIP used in BLIP-Diffusion: [notebook](https://github.com/SunzeY/AlphaCLIP/blob/main/notebooks/blip_diffusion.ipynb)
 * Alpha-CLIP used in SD_ImageVar: [demo](https://github.com/SunzeY/AlphaCLIP/tree/main/demo/with_diffusion)
-* Alpha-CLIP used in LLaVA-1.5: [demo](https://github.com/SunzeY/AlphaCLIP/tree/main/demo/with_llm)
+* Alpha-CLIP used in LLaVA-1.5: [code](https://github.com/SunzeY/AlphaCLIP/tree/main/demo/with_llm)  [demo](https://huggingface.co/spaces/Zery/Alpha-CLIP_LLaVA-1.5) 
 
 ##   ⭐ Demos
 <p align="center"> <a>  
