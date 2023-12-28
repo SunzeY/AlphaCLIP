@@ -9,3 +9,5 @@ thumbs.db
 .DS_Store
 .idea
 checkpoints/*
+*.pth
+eval/data/*
