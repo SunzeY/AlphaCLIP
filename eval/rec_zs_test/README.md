@@ -58,7 +58,7 @@ python cal_acc.py refcoco_val
 
 **Acknowledgement**
 
-We test our model based on the wonderful work [ReCLIP](https://github.com/allenai/reclip/tree/main). We simply replace CLIP with Alpha-CLIP; and reduce the image cropping operation.
+We test our model based on the wonderful work [ReCLIP](https://github.com/allenai/reclip/tree/main). We simply replace CLIP with Alpha-CLIP; and skip the image-cropping operation.
 
 
 
