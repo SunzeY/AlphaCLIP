@@ -1,6 +1,3 @@
-# Alpha-CLIP evaluation
-## Zero-Shot Classification on ImageNet-S
-
 ## Zero-Shot Referring Expression Comprehension on RefCOCO
 
 **Preparing Data**
@@ -12,11 +9,6 @@
 **Preparing model**
 
 3.Download [SAM](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth) (vit-h), [Alpha-CLIP](https://github.com/SunzeY/AlphaCLIP/blob/main/model-zoo.md) model, and put them in ./eval/rec_zs_test/ckpt.
-
-**Preparing Package**
-
-`pip install -r requirements.txt`
-
 
 ```
 ├── eval
@@ -52,13 +44,22 @@ bash run.sh
 or
 
 ```
-python main.py --input_file reclip_data/refcoco_val.jsonl --image_root ./data/train2014 --method parse --gradcam_alpha 0.5 0.5 --box_representation_method full,blur --box_method_aggregator sum --clip_model ViT-B/16,ViT-L/14 --detector_file reclip_data/refcoco_dets_dict.json --cache_path ./cache
+python main.py --input_file reclip_data/refcoco_val.jsonl --image_root ./data/train2014 --method parse --gradcam_alpha 0.5 0.5 --box_representation_method full,blur --box_method_aggregator sum --clip_model ViT-B/16,ViT-L/14 --detector_file reclip_data/refcoco+_dets_dict.json --cache_path ./cache
 ```
 (We recommend using `cache_path` to reduce time to generate mask by SAM for a image repeatedly.`)
+
+For multi-gpus testing, try:
+
+```
+bash run_multi_gpus.sh
+python cal_acc.py refcoco_val
+```
+
 
 **Acknowledgement**
 
 We test our model based on the wonderful work [ReCLIP](https://github.com/allenai/reclip/tree/main). We simply replace CLIP with Alpha-CLIP; and reduce the image cropping operation.
+
 
 
 **Experiment results**
