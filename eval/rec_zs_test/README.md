@@ -52,7 +52,7 @@ For multi-gpus testing, try:
 
 ```
 bash run_multi_gpus.sh
-python cal_acc.py refcoco_val.py
+python cal_acc.py refcoco_val
 ```
 
 
