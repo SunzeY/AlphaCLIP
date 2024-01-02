@@ -29,10 +29,13 @@ Demo `Alpha-CLIP` with `LLaVA`:
 
 
 ## 📜 News
-[2023/12/27] Web [demo](https://huggingface.co/spaces/Zery/Alpha-CLIP_LLaVA-1.5) and local [demo](https://github.com/SunzeY/AlphaCLIP/tree/main/demo/with_llm) of Alpha-CLIP with LLaVA are released!
+🚀 [2024/1/2] Zero-shot testing code for [Imagenet-S Classification](https://github.com/SunzeY/AlphaCLIP/tree/eval-dev/eval/imagenet_s_zs_test) and [Referring Expression Comprehension](https://github.com/SunzeY/AlphaCLIP/tree/eval-dev/eval/rec_zs_test) are released!
 
+🚀 [2023/12/27] Web [demo](https://huggingface.co/spaces/Zery/Alpha-CLIP_LLaVA-1.5) and local [demo](https://github.com/SunzeY/AlphaCLIP/tree/main/demo/with_llm) of Alpha-CLIP with LLaVA are released!
 
-[2023/12/7] The [paper](https://arxiv.org/abs/2312.03818) and [project page](https://aleafy.github.io/alpha-clip) are released!
+🚀 [2023/12/7] Web [demo](https://huggingface.co/spaces/Zery/Alpha_CLIP_ImgVar) and local [demo](https://github.com/SunzeY/AlphaCLIP/tree/main/demo/with_diffusion) of Alpha-CLIP with LLaVA are released!
+
+🚀 [2023/12/7] The [paper](https://arxiv.org/abs/2312.03818) and [project page](https://aleafy.github.io/alpha-clip) are released!
 
 ## 💡 Highlights
 - 🔥 **3.93%** improved zero-shot ImageNet classification accuracy when providing foreground alpha-map.
@@ -40,7 +43,9 @@ Demo `Alpha-CLIP` with `LLaVA`:
 - 🔥 **A strong visual encoder** as versatile tool when foreground mask is available.
 
 ## 👨‍💻 Todo
-- [ ] Training and evaluation code for Alpha-CLIP
+- [ ] Training code for Alpha-CLIP based on Open-CLIP
+- [x] Evaluation code for Alpha-CLIP
+- [x] Zero-shot evaluation for Imagenet-S Classification and REC tasks.
 - [x] Web demo and local demo of Alpha-CLIP with LLaVA
 - [x] Web demo and local demo of Alpha-CLIP with Stable Diffusion
 - [x] Usage example notebook of Alpha-CLIP
@@ -140,6 +145,7 @@ More usage examples are available：
 * Alpha-CLIP used in BLIP-Diffusion: [notebook](https://github.com/SunzeY/AlphaCLIP/blob/main/notebooks/blip_diffusion.ipynb)
 * Alpha-CLIP used in SD_ImageVar: [demo](https://github.com/SunzeY/AlphaCLIP/tree/main/demo/with_diffusion)
 * Alpha-CLIP used in LLaVA-1.5: [code](https://github.com/SunzeY/AlphaCLIP/tree/main/demo/with_llm)  [demo](https://huggingface.co/spaces/Zery/Alpha-CLIP_LLaVA-1.5) 
+* Alpha-CLIP evaluation code for Image Recognition: [code](https://github.com/SunzeY/AlphaCLIP/tree/eval-dev/eval)  
 
 ##   ⭐ Demos
 <p align="center"> <a>  

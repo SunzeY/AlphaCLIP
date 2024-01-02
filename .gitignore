@@ -10,4 +10,3 @@ thumbs.db
 .idea
 checkpoints/*
 *.pth
-eval/data/*
