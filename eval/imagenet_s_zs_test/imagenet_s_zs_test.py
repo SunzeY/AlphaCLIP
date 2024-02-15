@@ -3,7 +3,7 @@ import alpha_clip
 from tqdm import tqdm
 from imagenet_s import Imagenet_S
 
-model, preprocess = alpha_clip.load("ViT-L/14", alpha_vision_ckpt_pth="../clip_l14_grit20m_fultune_2xe.pth")
+model, preprocess = alpha_clip.load("ViT-L/14@336px", alpha_vision_ckpt_pth="../../clip_l14@336_grit_20m_4xe.pth")
 
 def zeroshot_classifier(classnames, templates):
     with torch.no_grad():
@@ -19,7 +19,7 @@ def zeroshot_classifier(classnames, templates):
         zeroshot_weights = torch.stack(zeroshot_weights, dim=1).cuda()
     return zeroshot_weights
 
-dataset = Imagenet_S()
+dataset = Imagenet_S(hi_res=True)
 loader = torch.utils.data.DataLoader(dataset, batch_size=64, num_workers=2)
 
 imagenet_templates = [
