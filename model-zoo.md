@@ -22,6 +22,7 @@ train on grit-20m
 | :-------: | :----------: | :----------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | CLIP-B/16 | 68.89(+2.41) | 90.51(+1.61) | [clip_b16_grit20m_fultune_2xe](https://drive.google.com/file/d/1cj3cYwrzBivx0h0NzSjlCg9HAd5aTkDW/view?usp=sharing) | [clip_b16_grit20m_fultune_2xe](https://download.openxlab.org.cn/models/SunzeY/AlphaCLIP/weight/clip_b16_grit20m_fultune_2xe.pth) |
 | CLIP-L/14 | 77.41(+3.93) | 94.45(+2.82) | [clip_l14_grit20m_fultune_2xe](https://drive.google.com/file/d/1WykuBYWePriCVeW5lOwBsgxgeBMzb1nd/view?usp=share_link) | [clip_l14_grit20m_fultune_2xe](https://download.openxlab.org.cn/models/SunzeY/AlphaCLIP/weight/clip_l14_grit20m_fultune_2xe.pth) |
+| CLIP-L/14@336 | 79.61(+5.32) | 95.31(+3.34) | [clip_l14@336_grit20m_fultune_4xe](https://drive.google.com/file/d/1dUq1deeLcou26RuxZbBG57m2ALPWev6-/view?usp=drive_link) | |
 
 train on combined dataset(mimagenet_top+grit-1m)
 
