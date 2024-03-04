@@ -29,7 +29,7 @@ Demo `Alpha-CLIP` with `LLaVA`:
 
 
 ## 📜 News
-🚀 [2024/3/4] CLIP-L/14@336ptx finetuned on GRIT-20M is available, checkout [model-zoo](https://github.com/SunzeY/AlphaCLIP/blob/main/model-zoo.md)!
+🚀 [2024/3/4] CLIP-L/14@336px finetuned on GRIT-20M is available, checkout [model-zoo](https://github.com/SunzeY/AlphaCLIP/blob/main/model-zoo.md)!
 
 🚀 [2024/2/27] Our paper Alpha-CLIP is accepted by CVPR'24!
 
