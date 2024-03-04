@@ -29,6 +29,10 @@ Demo `Alpha-CLIP` with `LLaVA`:
 
 
 ## 📜 News
+🚀 [2024/3/4] CLIP-L/14@336ptx finetuned on GRIT-20M is available, checkout [model-zoo](https://github.com/SunzeY/AlphaCLIP/blob/main/model-zoo.md)!
+
+🚀 [2024/2/27] Our paper Alpha-CLIP is accepted by CVPR'24!
+
 🚀 [2024/1/2] Zero-shot testing code for [Imagenet-S Classification](https://github.com/SunzeY/AlphaCLIP/tree/eval-dev/eval/imagenet_s_zs_test) and [Referring Expression Comprehension](https://github.com/SunzeY/AlphaCLIP/tree/eval-dev/eval/rec_zs_test) are released!
 
 🚀 [2023/12/27] Web [demo](https://huggingface.co/spaces/Zery/Alpha-CLIP_LLaVA-1.5) and local [demo](https://github.com/SunzeY/AlphaCLIP/tree/main/demo/with_llm) of Alpha-CLIP with LLaVA are released!
