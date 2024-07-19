@@ -29,7 +29,7 @@ Demo `Alpha-CLIP` with `LLaVA`:
 
 
 ## 📜 News
-🚀 [2024/7/19] We have launched [training code](https://github.com/SunzeY/AlphaCLIP/train) as well as data [MaskImageNet](https://huggingface.co/datasets/Zery/MaskImageNet)!
+🚀 [2024/7/19] We have launched [training code](https://github.com/SunzeY/AlphaCLIP/tree/main/train) as well as data [MaskImageNet](https://huggingface.co/datasets/Zery/MaskImageNet)!
 
 🚀 [2024/3/4] CLIP-L/14@336px finetuned on GRIT-20M is available, checkout [model-zoo](https://github.com/SunzeY/AlphaCLIP/blob/main/model-zoo.md)!
 
@@ -91,6 +91,8 @@ mask_transform = transforms.Compose([
 alpha = mask_transform(binary_mask * 255)
 ```
 **Training**
+
+
 Please refer to [here](https://github.com/SunzeY/AlphaCLIP/tree/main/train)
 
 
