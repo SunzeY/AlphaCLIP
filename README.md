@@ -91,7 +91,7 @@ mask_transform = transforms.Compose([
 alpha = mask_transform(binary_mask * 255)
 ```
 **Training**
-Please refer to [here](https://github.com/SunzeY/AlphaCLIP/train)
+Please refer to [here](https://github.com/SunzeY/AlphaCLIP/tree/main/train)
 
 
 **Zero-shot Prediction**
