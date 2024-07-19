@@ -29,6 +29,8 @@ Demo `Alpha-CLIP` with `LLaVA`:
 
 
 ## 📜 News
+🚀 [2024/7/19] We have launched [training code](https://github.com/SunzeY/AlphaCLIP/train) as well as data [MaskImageNet](https://huggingface.co/datasets/Zery/MaskImageNet)!
+
 🚀 [2024/3/4] CLIP-L/14@336px finetuned on GRIT-20M is available, checkout [model-zoo](https://github.com/SunzeY/AlphaCLIP/blob/main/model-zoo.md)!
 
 🚀 [2024/2/27] Our paper Alpha-CLIP is accepted by CVPR'24!
@@ -47,7 +49,7 @@ Demo `Alpha-CLIP` with `LLaVA`:
 - 🔥 **A strong visual encoder** as versatile tool when foreground mask is available.
 
 ## 👨‍💻 Todo
-- [ ] Training code for Alpha-CLIP based on Open-CLIP
+- [x] Training code for Alpha-CLIP and MaskImageNet data.
 - [x] Evaluation code for Alpha-CLIP
 - [x] Zero-shot evaluation for Imagenet-S Classification and REC tasks.
 - [x] Web demo and local demo of Alpha-CLIP with LLaVA
@@ -88,11 +90,11 @@ mask_transform = transforms.Compose([
 ])
 alpha = mask_transform(binary_mask * 255)
 ```
-
+**Training**
+Please refer to [here](https://github.com/SunzeY/AlphaCLIP/train)
 
 
 **Zero-shot Prediction**
-
 ```python
 import torch
 import alpha_clip
