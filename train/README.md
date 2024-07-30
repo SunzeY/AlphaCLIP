@@ -7,8 +7,15 @@
 
 ## Testing 
 We test Alpha-CLIP on two kinds of settings during training.
-1. General image recognition ability measured by ImageNet-S Classification accuracy. You need to prepare [ImageNet-S](https://github.com/LUSSeg/ImageNet-S) dataset.
-2. (Optional) Region level recognition ability measured by COCO / LVIS Classification accuracy (with full image as input). You need to prepare [COCO](https://cocodataset.org/#home)-2017 dataset accordingly.
+1. General image recognition ability measured by ImageNet-S Classification accuracy. You need to prepare [ImageNet-S](https://github.com/LUSSeg/ImageNet-S) dataset. Download our processed annotations here([imagenet_919.json](https://download.openxlab.org.cn/models/SunzeY/AlphaCLIP/weight/imagenet_919.json)) The folder should be structured like this or adjust path in dataloader.
+```
+├── imagenet-s
+│   ├── data
+│   │   ├── imagenet_919.json
+│   │   └── ImageNetS919
+│   │       └── validation
+```
+3. (Optional) Region level recognition ability measured by COCO / LVIS Classification accuracy (with full image as input). You need to prepare [COCO](https://cocodataset.org/#home)-2017 dataset accordingly.
 
 ## Training
 We use SLURM for multi-nodes training.
