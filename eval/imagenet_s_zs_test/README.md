@@ -3,7 +3,7 @@
 
 1.prepare [imagenet-s](https://github.com/LUSSeg/ImageNet-S) dataset, only `validation` raw image is needed.
 
-2.download [imagenet_919.json](https://download.openxlab.org.cn/models/SunzeY/AlphaCLIP/weight/imagenet_919.json) we provide as data annotation (generated from imagenet-s annotation). The folder should be structured like
+2.download [imagenet_919.json](https://huggingface.co/datasets/Zery/MaskImageNet/tree/main)  we provide as data annotation (generated from imagenet-s annotation). The folder should be structured like
 
 ```
 ├── imagenet_s_zs_test
