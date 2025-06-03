@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "alpha_clip"
+version = "1.0"
+description = ""
+authors = [
+    { name = "OpenAI&ZeyiSun" }
+]
+dependencies = [
+    "ftfy",
+    "regex",
+    "tqdm",
+    "torch",
+    "torchvision"
+]
+
+[tool.setuptools.packages.find]
+exclude = ["tests*"]
+
+[project.optional-dependencies]
+dev = ["pytest"]
