@@ -121,22 +121,6 @@ class Imagenet_S(Dataset):
         rgb = rgba[:, :, :-1]
         mask = rgba[:, :, -1]
         image_torch = self.clip_standard_transform(rgb)
-        # using box: bounding-box compute
-        # bi_mask = mask == 1
-        # h, w = bi_mask.shape[-2:]
-        # in_height = np.max(bi_mask, axis=-1)
-        # in_height_coords = np.max(bi_mask, axis=-1) * np.arange(h)
-        # b_e = in_height_coords.max()
-        # in_height_coords = in_height_coords + h * (~in_height)
-        # t_e = in_height_coords.min()
-        # in_width = np.max(bi_mask, axis=-2)
-        # in_width_coords = np.max(bi_mask, axis=-2) * np.arange(w)
-        # r_e = in_width_coords.max()
-        # in_width_coords = in_width_coords + w * (~in_width)
-        # l_e = in_width_coords.min()
-        # box = np.zeros_like(mask)
-        # box[t_e: b_e, l_e:r_e] = 1
-        # mask = box
         if self.all_one:
             mask_torch = self.mask_transform(np.ones_like(mask) * 255)
         else: 
