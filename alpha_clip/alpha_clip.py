@@ -142,8 +142,12 @@ def load(name: str, alpha_vision_ckpt_pth="None", device: Union[str, torch.devic
         model = build_model(state_dict or model.state_dict(), lora_adapt=lora_adapt, rank=rank).to(device)
         if str(device) == "cpu":
             model.float()
+        # If a separate checkpoint is provided for the visual encoder (e.g., CLIP), load it
         if alpha_vision_ckpt_pth != "None":
+            # Load the visual encoder weights from the given checkpoint path
             model.visual.load_state_dict(torch.load(alpha_vision_ckpt_pth))
+            # Set the model to evaluation mode
+            # Note: If LoRA is used, it may merge LoRA weights into the base model here for inference
             model.eval() # merge lora params if exists (for inference only)
         return model, _transform(model.visual.input_resolution)
 
